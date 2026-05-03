@@ -46,6 +46,9 @@ const DashboardPage: FC = () => {
             <Descriptions.Item label="Email">{user?.email || 'N/A'}</Descriptions.Item>
             <Descriptions.Item label="User ID">{user?.id || 'N/A'}</Descriptions.Item>
           </Descriptions>
+          <p>
+          Full-Stack Developer specializing in React, Node.js, NestJS and Payload CMS
+          </p>
         </Card>
       </div>
     </DashboardWrapper>

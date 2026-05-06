@@ -8,6 +8,7 @@ interface ProtectedRouteProps {
 }
 
 const ProtectedRoute: FC<ProtectedRouteProps> = ({ children }) => {
+  let test=0;
   const { isAuthenticated, isLoading } = useAuthState()
   const location = useLocation()
 
